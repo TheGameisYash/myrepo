@@ -5,7 +5,7 @@ public class Calculator {
         String operator;
         int num1,num2,result;
 
-        Scanner sc = new Scanner(System.in);
+        //Scanner sc = new Scanner(System.in);
         
         System.out.println("Choose an operator (+,-,*,/)");
         operator = sc.nextLine();

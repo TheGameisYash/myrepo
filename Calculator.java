@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Calculator {
     public static void main(String[]args) {
         String operator;
-        int num1,num2,result;
+        int number1,number2,result;
 
         Scanner sc = new Scanner(System.in);
         
@@ -11,10 +11,10 @@ public class Calculator {
         operator = sc.nextLine();
 
         System.out.println("Choose num1");
-        num1 = sc.nextInt();
+        number1 = sc.nextInt();
 
         System.out.println("Choose num2");
-        num2 = sc.nextInt();
+        number2 = sc.nextInt();
 
         switch(operator){
             case "+":
